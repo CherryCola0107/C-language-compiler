@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1638364746 source:d:\this is something\slr(0)\main.cpp
+	<iostream>
+	"LexicalAnalysis.h"
+	"GrammaticalAnalysis.h"
+	"fstream"
+	<iomanip>
+	<sstream>
+	<map>
+	<algorithm>
+	<vector>
+
+1638270713 source:d:\this is something\slr(0)\lexicalanalysis.cpp
+	<iostream>
+	<string.h>
+	"word.h"
+	"symbol.h"
+	"symbol_line.h"
+
+1638238926 d:\this is something\slr(0)\word.h
+	<string.h>
+
+1638238976 d:\this is something\slr(0)\symbol.h
+
+1638239041 d:\this is something\slr(0)\symbol_line.h
+	<string.h>
+
+1638365013 source:d:\this is something\slr(0)\grammaticalanalysis.cpp
+	<iostream>
+	<iomanip>
+	<string.h>
+	"item.h"
+	"prodection_rule.h"
+	"state.h"
+	"analysis_table_cell.h"
+	"word.h"
+	"symbol.h"
+	"collection.h"
+	"SemanticAnalysis.h"
+
+1638015389 d:\this is something\slr(0)\item.h
+	<string.h>
+
+1638015658 d:\this is something\slr(0)\prodection_rule.h
+	<string.h>
+
+1638341177 d:\this is something\slr(0)\state.h
+	"item.h"
+
+1638278117 d:\this is something\slr(0)\analysis_table_cell.h
+	<string.h>
+
+1638015389 d:\this is something\slr(0)\collection.h
+
+1638239255 d:\this is something\slr(0)\semanticanalysis.h
+	"item.h"
+	"prodection_rule.h"
+	"state.h"
+	"analysis_table_cell.h"
+	"word.h"
+	"symbol.h"
+	"symbol_line.h"
+
+1638239263 source:d:\this is something\slr(0)\semanticanalysis.cpp
+	<iostream>
+	<iomanip>
+	<string.h>
+	<cstdio>
+	"item.h"
+	"prodection_rule.h"
+	"state.h"
+	"analysis_table_cell.h"
+	"word.h"
+	"symbol.h"
+	"collection.h"
+	"intermediate_code.h"
+	"symbol_line.h"
+
+1638239308 d:\this is something\slr(0)\intermediate_code.h
+	<string.h>
+
+1638238826 d:\this is something\slr(0)\lexicalanalysis.h
+	"word.h"
+	"symbol_line.h"
+
+1638362843 d:\this is something\slr(0)\grammaticalanalysis.h
+	"item.h"
+	"prodection_rule.h"
+	"state.h"
+	"analysis_table_cell.h"
+	"word.h"
+

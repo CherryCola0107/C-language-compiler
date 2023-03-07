@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SLR(0)" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SLR(0)" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SLR(0)" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="GrammaticalAnalysis.cpp" />
+		<Unit filename="GrammaticalAnalysis.h" />
+		<Unit filename="LexicalAnalysis.cpp" />
+		<Unit filename="LexicalAnalysis.h" />
+		<Unit filename="SemanticAnalysis.cpp" />
+		<Unit filename="SemanticAnalysis.h" />
+		<Unit filename="analysis_table_cell.h" />
+		<Unit filename="collection.h" />
+		<Unit filename="intermediate_code.h" />
+		<Unit filename="item.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="prodection_rule.h" />
+		<Unit filename="state.h" />
+		<Unit filename="symbol.h" />
+		<Unit filename="symbol_line.h" />
+		<Unit filename="word.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
