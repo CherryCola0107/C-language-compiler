@@ -43,7 +43,7 @@ production是产生式，leftPart是产生式左部，rightPart是产生式右�
 
 item是项目，简单来说就是 E->A.B 这样的，pId是对应产生式的id（下标），idx是 . 的前一个符号的下标，也就是在分析栈中最后一个元素的下标，假设 E->AB 是第3号产生式，那 E->A.B 对应的 item 是 pId=3，idx=0。需要注意的是 E->.AB 对应的idx是-1。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201113215244997.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0NzUzNDUx,size_16,color_FFFFFF,t_70#pic_center)
+![image](https://user-images.githubusercontent.com/60459025/223600335-aea97c5d-173e-414d-93bf-62c2957afe9e.png)
 
 ### state.h
 
