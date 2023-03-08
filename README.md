@@ -25,7 +25,7 @@ LR(0)分析法：
 
 op是操作（s是状态跳转；r是用第几个产生式进行归约；acc是接收；*是出错；gt是非终结符的状态转换），direct是方向（s和gt时是跳转到的状态，r时是归约用第几个产生式）
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020111321520063.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0NzUzNDUx,size_16,color_FFFFFF,t_70#pic_center)
+![image](https://user-images.githubusercontent.com/60459025/223599184-329fdc07-6ef0-4876-895b-738939e85a6c.png)
 
 ### collection.h
 
