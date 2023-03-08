@@ -31,13 +31,13 @@ op是操作（s是状态跳转；r是用第几个产生式进行归约；acc是�
 
 follow集和first集都是用的这个结构体，vts是集合对应的终结符id（下标），top是vts的数组尾
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201113215244997.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0NzUzNDUx,size_16,color_FFFFFF,t_70#pic_center)
+![image](https://user-images.githubusercontent.com/60459025/223599390-8fe273fd-0887-465c-a0ea-ec9714f87397.png)
 
 ### prodection_rule.h
 
 production是产生式，leftPart是产生式左部，rightPart是产生式右部的符号数组，rightPartLength是对应符号数组的数组尾。如S->AB，leftPart是S，rightPart[0]是A，rightPart[1]是B，rightPartLength是1（尾部下标）。	
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201113215858173.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0NzUzNDUx,size_16,color_FFFFFF,t_70#pic_center)
+![image](https://user-images.githubusercontent.com/60459025/223599439-99f15bca-5230-4483-b45b-5adcf7ca12b1.png)
 
 ### item.h
 
