@@ -49,7 +49,7 @@ item是项目，简单来说就是 E->A.B 这样的，pId是对应产生式的id
 
 就是状态机的每个状态。id暂时没有用到，是状态的序号。item是s状态对应的项目集，top是items的尾部下标
 
-![img](https://img-blog.csdnimg.cn/20201113220133472.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0NzUzNDUx,size_16,color_FFFFFF,t_70#pic_center)
+![image](https://user-images.githubusercontent.com/60459025/223600417-40d1221c-8e6d-4de7-9f7e-06a01874abc3.png)
 
 ### 项目集闭包 CLOSURE()
 
